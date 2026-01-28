@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LuxUI Genesis — Framework front-end premium en HTML5/CSS/JS, minimaliste et modulaire.">
+  <meta name="author" content="JBATISTAMA">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="LuxUI Genesis">
+  <meta property="og:description" content="Un framework premium pour créer des interfaces web élégantes, performantes et hautement personnalisées.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:url" content="https://github.com/jbatistama/luxui-genesis">
+  <meta property="og:image" content="https://raw.githubusercontent.com/jbatistama/luxui-genesis/main/assets/images/og-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LuxUI Genesis">
+  <meta name="twitter:description" content="Design d’exception, code maîtrisé. LuxUI Genesis pose la base de votre écosystème premium.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/jbatistama/luxui-genesis/main/assets/images/og-image.jpg">
+
+  <link rel="icon" href="/favicon.ico">
+  <title>LuxUI Genesis</title>
+  <link rel="stylesheet" href="assets/css/luxui.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="lux-navbar">
+    <div class="lux-logo">LuxUI</div>
+    <button class="lux-toggle" onclick="luxToggleMenu()">☰</button>
+
+    <nav class="lux-menu">
+      <button class="lux-link" data-section="home">Accueil</button>
+      <button class="lux-link" data-section="components">Composants</button>
+      <button class="lux-link" data-section="documentation">Documentation</button>
+      <button class="lux-link" data-section="contact">Contact</button>
+      <span class="lux-tag">Édition 2026</span>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SECTION ACCUEIL -->
+    <section class="section is-active" id="section-home">
+      <section class="hero">
+        <h1>Design d’exception.<br>Code maîtrisé.</h1>
+        <p>LuxUI Genesis est un framework front-end premium, minimaliste et modulaire, conçu pour créer des interfaces élégantes, performantes et hautement personnalisées.</p>
+        <div class="hero-actions">
+          <button class="lux-btn" data-section="components">Explorer les composants</button>
+          <button class="lux-btn ghost" data-section="documentation">Voir la documentation</button>
+        </div>
+      </section>
+
+      <section class="features">
+        <article class="lux-card">
+          <h2>Design Premium</h2>
+          <p>Une esthétique soignée, des contrastes maîtrisés et des accents dorés pour une impression de luxe immédiate.</p>
+          <button class="lux-btn small" data-section="design-premium">Découvrir →</button>
+        </article>
+
+        <article class="lux-card">
+          <h2>Code Minimal</h2>
+          <p>Une structure claire, légère et modulaire, optimisée pour la performance, la maintenabilité et l’extension future.</p>
+          <button class="lux-btn small" data-section="code-minimal">Découvrir →</button>
+        </article>
+
+        <article class="lux-card">
+          <h2>Expérience Unique</h2>
+          <p>Une expérience utilisateur pensée comme une architecture sur mesure, fluide, élégante et intemporelle.</p>
+          <button class="lux-btn small" data-section="experience-unique">Découvrir →</button>
+        </article>
+      </section>
+
+      <section class="cta">
+        <h2>Prêt à lancer votre prochain espace&nbsp;?</h2>
+        <div class="cta-actions">
+          <button class="lux-btn" data-section="contact">Commencer maintenant</button>
+          <button class="lux-btn ghost" data-section="documentation">En savoir plus</button>
+        </div>
+      </section>
+
+      <section class="about">
+        <h2>À propos du créateur</h2>
+        <p>LuxUI Genesis est conçu par <strong>JBATISTAMA</strong>, architecte digital & designer d’expériences premium. Chaque interface est pensée comme une architecture durable, élégante et maîtrisée.</p>
+        <p>Découvrir l’univers : <a href="https://jbatistama.com" target="_blank" rel="noopener">jbatistama.com</a></p>
+      </section>
+    </section>
+
+    <!-- SECTION DESIGN PREMIUM -->
+    <section class="section" id="section-design-premium">
+      <h2>Design Premium</h2>
+      <p>Une esthétique sombre, dorée, élégante et intemporelle. LuxUI Genesis pose les fondations d’un design system premium.</p>
+
+      <div class="features">
+        <article class="lux-card">
+          <h3>Palette LuxUI</h3>
+          <p>Noir profond, doré premium, gris sombre, transparences maîtrisées.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Typographie</h3>
+          <p>Inter — moderne, lisible, premium, parfaite pour les interfaces élégantes.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Composants visuels</h3>
+          <p>Boutons, cartes, sections vitrées, transitions premium.</p>
+        </article>
+      </div>
+
+      <div class="cta">
+        <button class="lux-btn" data-section="components">Voir les composants</button>
+        <button class="lux-btn ghost" data-section="home">Retour à l’accueil</button>
+      </div>
+    </section>
+
+    <!-- SECTION CODE MINIMAL -->
+    <section class="section" id="section-code-minimal">
+      <h2>Code Minimal</h2>
+      <p>Une base claire, modulaire, évolutive. Pensée pour les architectes digitaux.</p>
+
+      <div class="features">
+        <article class="lux-card">
+          <h3>Structure simple</h3>
+          <p>Un seul fichier HTML, un CSS premium, un JS dynamique.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Modularité</h3>
+          <p>Chaque section est indépendante, extensible, réutilisable.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Performance</h3>
+          <p>Transitions fluides, chargement instantané, SPA premium.</p>
+        </article>
+      </div>
+
+      <div class="cta">
+        <button class="lux-btn" data-section="documentation">Voir la documentation</button>
+        <button class="lux-btn ghost" data-section="home">Retour à l’accueil</button>
+      </div>
+    </section>
+
+    <!-- SECTION EXPÉRIENCE UNIQUE -->
+    <section class="section" id="section-experience-unique">
+      <h2>Expérience Unique</h2>
+      <p>Une navigation fluide, immersive et premium, pensée pour des interfaces exigeantes.</p>
+
+      <div class="features">
+        <article class="lux-card">
+          <h3>Transitions Premium</h3>
+          <p>Les sections apparaissent avec des effets de fade, slide et blur subtils pour une sensation d’application.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Immersion</h3>
+          <p>Fond image fixe, overlay sombre, cartes vitrées.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Fluidité</h3>
+          <p>Navigation instantanée, sans rechargement, sans rupture.</p>
+        </article>
+      </div>
+
+      <div class="cta">
+        <button class="lux-btn" data-section="contact">Commencer maintenant</button>
+        <button class="lux-btn ghost" data-section="home">Retour à l’accueil</button>
+      </div>
+    </section>
+
+    <!-- SECTION COMPOSANTS -->
+    <section class="section" id="section-components">
+      <h2>Composants LuxUI</h2>
+      <p>LuxUI Genesis fournit une base de composants UI premium, prêts à être intégrés dans vos projets.</p>
+
+      <div class="features">
+        <article class="lux-card">
+          <h3>Navbar Premium</h3>
+          <p>Barre de navigation sticky, fond sombre, blur subtil, accents dorés.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Boutons LuxUI</h3>
+          <p>Boutons primaires, ghost et compacts, avec transitions douces et cohérence visuelle.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Cartes & Sections</h3>
+          <p>Cartes vitrées, sections structurées (hero, features, CTA, about) pour composer rapidement des pages premium.</p>
+        </article>
+      </div>
+
+      <div class="cta">
+        <button class="lux-btn" data-section="documentation">Voir la documentation</button>
+        <button class="lux-btn ghost" data-section="home">Retour à l’accueil</button>
+      </div>
+    </section>
+
+    <!-- SECTION DOCUMENTATION -->
+    <section class="section" id="section-documentation">
+      <h2>Documentation LuxUI Genesis</h2>
+      <p>LuxUI Genesis est pensé comme une base claire, documentée et extensible pour vos futurs espaces New Space.</p>
+
+      <div class="features">
+        <article class="lux-card">
+          <h3>Structure du projet</h3>
+          <p>Une architecture simple : <code>index.html</code>, <code>assets/css/luxui.css</code>, <code>assets/js/luxui.js</code>, et un dossier <code>assets/images</code>.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Design System</h3>
+          <p>Palette sombre + doré, typographie moderne, composants cohérents, transitions premium et fond image immersif.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Extension future</h3>
+          <p>Prévu pour accueillir de nouveaux modules (New Space 2, 3, …) sans casser la base existante.</p>
+        </article>
+      </div>
+
+      <div class="cta">
+        <button class="lux-btn" data-section="contact">Contacter JBATISTAMA</button>
+        <button class="lux-btn ghost" data-section="components">Voir les composants</button>
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section class="section" id="section-contact">
+      <h2>Contact</h2>
+      <p>Vous souhaitez utiliser LuxUI Genesis dans un projet, un produit ou un écosystème complet&nbsp;?</p>
+      <p>Contactez <strong>JBATISTAMA</strong> pour concevoir une architecture digitale sur mesure.</p>
+
+      <div class="features">
+        <article class="lux-card">
+          <h3>Collaboration</h3>
+          <p>Accompagnement sur la conception d’interfaces premium, la structuration de frameworks et l’architecture front-end.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Intégration</h3>
+          <p>Intégration de LuxUI Genesis dans vos plateformes, SaaS, espaces clients ou expériences sur mesure.</p>
+        </article>
+        <article class="lux-card">
+          <h3>Évolution</h3>
+          <p>Définition des futurs modules New Space, documentation avancée, et design system étendu.</p>
+        </article>
+      </div>
+
+      <div class="cta">
+        <a class="lux-btn" href="mailto:contact@jbatistama.com">Écrire à JBATISTAMA</a>
+        <button class="lux-btn ghost" data-section="home">Retour à l’accueil</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="lux-footer">
+    <p>© 2026 LuxUI Genesis. Créé avec passion pour l’excellence.</p>
+    <p>Conçu par JBATISTAMA — Architecte digital. <a href="https://jbatistama.com" target="_blank" rel="noopener">jbatistama.com</a></p>
+  </footer>
+
+  <script src="assets/js/luxui.js"></script>
+</body>
+</html>
