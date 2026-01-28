@@ -5,6 +5,7 @@ Premier espace de l’écosystème LuxUI : une base front‑end premium en HTML5
 ## ✨ Vision
 
 LuxUI Genesis pose les fondations d’un design system sombre et doré, minimaliste et structuré, aligné avec l’univers de [jbatistama.com](https://jbatistama.com).
+
 Site en ligne : [https://jbatistama.com/luxui-genesis/](https://jbatistama.com/luxui-genesis/)
 
 ## 🚀 Fonctionnalités
